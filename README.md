@@ -13,7 +13,8 @@ To run a script, type the script into a terminal within the `root` directory.
 
 | script | description |
 |:------ |:----------- |
-| `pdflatex src/index.tex` | compile output |
+| `make` | compile output |
+| `make clean` | delete output |
 
 ### Temporary Notes
 * find suitable class file or create custom class file
