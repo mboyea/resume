@@ -1,22 +1,27 @@
 
-# project directories
+# directories
 SRC_DIR := src
-STATIC_DIR := static
 BUILD_DIR := build
 OUT_DIR := bin
 
-# project file lists
-TEXS := $(shell find $(SRC_DIR) -type f -name "*.tex")
-BUILD_PDFS := $(patsubst $(SRC_DIR)/%,$(BUILD_DIR)/%,$(TEXS:.tex=.pdf))
+# file lists
+MDS := $(shell find "$(SRC_DIR)" -type f -name "*.md")
+TEXS := $(patsubst $(SRC_DIR)/%,$(BUILD_DIR)/%,$(MDS:.md=.tex))
+PDFS := $(patsubst $(BUILD_DIR)/%,$(OUT_DIR)/%,$(TEXS:.tex=.pdf))
 
-all : $(BUILD_PDFS)
+all : $(PDFS)
 
-$(BUILD_DIR)/%.pdf : $(SRC_DIR)/%.tex
+$(OUT_DIR)/%.pdf : $(BUILD_DIR)/%.tex
+	@mkdir -p $(OUT_DIR)
+	@echo "Compiling $< to PDF..."; pdflatex -interaction=batchmode -shell-escape -output-directory=$(OUT_DIR) $<
+
+$(BUILD_DIR)/%.tex : $(SRC_DIR)/%.md
 	@mkdir -p $(BUILD_DIR)
-	@echo "Compiling $<..."; pdflatex -interaction=nonstopmode -output-directory=$(BUILD_DIR) $<
+	@echo "Compiling $< to LaTeX..."; pandoc --from=markdown --to=latex --standalone --output=$@ $<
 
 clean :
 	@echo "Cleaning..."; $(RM) -r $(BUILD_DIR) $(OUT_DIR)
 
 .PHONY: all clean
+.SECONDARY: $(BUILD_DIR)/%.tex
 

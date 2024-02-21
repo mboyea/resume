@@ -5,7 +5,8 @@ A visually pleasing resume document written with LaTeX
 This resume is compiled to PDF from a LaTeX document.
 
 ### Install (Arch Linux)
-* Install `texlive-basic texlive-latexrecommended texlive-fontsrecommended` from pacman.
+* Install `texlive-basic texlive-latexrecommended texlive-latexextra texlive-fontsrecommended` from pacman.
+* Install `pandoc-bin` from AUR **or** `pandoc-cli` from pacman *(do not install both)*.
 * [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to a directory on your computer. That directory will be referred to as `root`.
 
 ### Scripts
@@ -17,6 +18,9 @@ To run a script, type the script into a terminal within the `root` directory.
 | `make clean` | delete output |
 
 ### Temporary Notes
+* The goal is to use Markdown files for content and LaTeX files for styling the content - typesetting
+* https://ashki23.github.io/markdown-latex.html
+
 * find suitable class file or create custom class file
 * https://ctan.org/topic/class
 * https://tex.stackexchange.com/questions/63358/how-to-create-a-template-or-document-class-for-latex
