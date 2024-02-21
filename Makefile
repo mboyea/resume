@@ -9,7 +9,7 @@ MDS := $(shell find "$(SRC_DIR)" -type f -name "*.md")
 TEXS := $(patsubst $(SRC_DIR)/%,$(BUILD_DIR)/%,$(MDS:.md=.tex))
 PDFS := $(patsubst $(BUILD_DIR)/%,$(OUT_DIR)/%,$(TEXS:.tex=.pdf))
 
-all : $(PDFS)
+all : $(PDFS) $(TEXS)
 
 $(OUT_DIR)/%.pdf : $(BUILD_DIR)/%.tex
 	@mkdir -p $(OUT_DIR)
@@ -23,5 +23,4 @@ clean :
 	@echo "Cleaning..."; $(RM) -r $(BUILD_DIR) $(OUT_DIR)
 
 .PHONY: all clean
-.SECONDARY: $(BUILD_DIR)/%.tex
 
