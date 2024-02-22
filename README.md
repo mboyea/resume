@@ -1,6 +1,6 @@
 Matthew Boyea Resume
 ===
-A visually pleasing resume document written with Markdown & LaTeX
+A visually pleasing resume document written using Pandoc + Markdown + LaTeX + Makefile
 ---
 This resume uses [Pandoc] to convert a set of hybrid [Markdown]/[LaTeX] documents into a PDF output. Markdown is used to minimize boilerplate while writing content, and LaTeX is used to enable the best possible control over document styles. The build process is contained in a simple [Makefile] for ease-of-use.
 * Changes in document formatting are easy to implement (Pandoc natively supports the ability to input and output [many popular formats](https://pandoc.org/MANUAL.html#options) including .docx, .pptx, .tex, .pdf, .html, and .json; plus it supports any other format through custom Lua plugins).
@@ -25,6 +25,13 @@ TODO: figure out how to define styles via a .tex file in `/src` directory. This 
 * find suitable class file or create custom class file
 * https://ctan.org/topic/class
 * https://tex.stackexchange.com/questions/63358/how-to-create-a-template-or-document-class-for-latex
+
+### Inspiration
+Links to places on the internet that helped inspire this project are listed below.
+* [pretty typography](https://tex.stackexchange.com/questions/1319/showcase-of-beautiful-typography-done-in-tex-friends)
+* [markdown + latex example](https://tex.stackexchange.com/questions/600705/keeping-typesetting-details-in-markdown-file)
+* [pandoc + markdown + latex example](https://tex.stackexchange.com/a/246871)
+* [pandoc + markdown + context guide](https://dave.autonoma.ca/blog/)
 
 ### Contribute
 Unfortunately, this project doesn't support community contributions right now. Feel free to fork, but be sure to [read the license](./LICENSE.md).
