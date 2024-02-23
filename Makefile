@@ -13,16 +13,12 @@ all : $(OUTS) $(BUILDS)
 
 $(OUT_DIR)/%.pdf : $(BUILD_DIR)/%.tex
 	@mkdir -p "$(OUT_DIR)"
-	@echo "Compiling $< to PDF..."; pdflatex -interaction=batchmode -shell-escape -output-directory="$(OUT_DIR)" "$<"
+	@echo "Compiling $@..."; pdflatex -interaction=batchmode -shell-escape -output-directory="$(OUT_DIR)" "$<"
 
-$(BUILD_DIR)/%.tex : $(SRC_DIR)/%.md
-ifneq ($(wildcard $(<:.md=.tex)),)
+.SECONDEXPANSION:
+$(BUILD_DIR)/%.tex : $(SRC_DIR)/%.md $$(wildcard $(SRC_DIR)/%.tex)
 	@mkdir -p "$(BUILD_DIR)"
-	@echo "Compiling $< to LaTeX using template $(<:.md=.tex)..."; pandoc --from=markdown --to=latex --template="$(<:.md=.tex)" --standalone --output="$@" "$<"
-else
-	@mkdir -p "$(BUILD_DIR)"
-	@echo "Compiling $< to LaTeX..."; pandoc --from=markdown --to=latex --standalone --output="$@" "$<"
-endif
+	@echo "Compiling $@..."; pandoc --from=markdown --to=latex $(if $(wildcard $(<:.md=.tex)),--template="$(<:.md=.tex)") --standalone --output="$@" "$<"
 
 clean :
 	@echo "Cleaning..."; $(RM) -r "$(BUILD_DIR)" "$(OUT_DIR)"
