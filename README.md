@@ -23,6 +23,7 @@ To run a script, type the script into a terminal within the `root` directory.
 ### Inspiration
 Links to places on the internet that helped inspire this project are listed below.
 * [pretty tex typography examples](https://tex.stackexchange.com/questions/1319/showcase-of-beautiful-typography-done-in-tex-friends)
+* [skilled tex typography examples](https://tug.org/texshowcase/)
 * [latex + markdown example](https://tex.stackexchange.com/questions/600705/keeping-typesetting-details-in-markdown-file)
 * [pandoc + markdown + latex example](https://tex.stackexchange.com/a/246871)
 * [pandoc + markdown + context guide](https://dave.autonoma.ca/blog/)
