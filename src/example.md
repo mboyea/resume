@@ -1,6 +1,9 @@
-% Proof of Existing Pandoc Feature
-% Kurt Pfeifle
-% May 25th, 2015
+---
+title: "Proof of Existing Pandoc Feature"
+author: "Kurt Pfeifle"
+date: "May 25th, 2015"
+geometry: "margin=0.5cm, paperheight=421pt, paperwidth=595pt"
+---
 
 # Basics
 
@@ -29,19 +32,11 @@ table.
 It works out of the box:
 
 1. Just write a Markdown document, and sprinkle your \LaTeX\ code snippets in between.
-1. Save the document with an `.md` suffix.
+1. Save the document with a `.md` suffix.
 1. Run the Pandoc conversion:
 
     ```` {.bash}
      pandoc --from=markdown --output=my.tex my.md --to=latex --standalone
-    ````
-
-    or
-
-    ```` {.bash}
-     pandoc --from=markdown --output=my.pdf my.md                                   \
-            --variable=geometry:"margin=0.5cm, paperheight=421pt, paperwidth=595pt" \
-            --highlight-style=espresso
     ````
 
 I want a few words appear as \textcolor{red}{red} or in a \textcolor{green}{different}
