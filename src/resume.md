@@ -1,3 +1,8 @@
+---
+title: "Matthew Boyea Software Engineer Resume"
+author: "Matthew Terrance Carlos Boyea"
+date: 2024-03
+---
 # Matthew T. C. Boyea
 [913.203.2177](tel:9132032177) [contact@mboyea.com](mailto:contact@mboyea.com) [linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/) [github.com/mboyea](https://github.com/mboyea)
 
@@ -20,34 +25,34 @@
 +--------------------------------------+--------------------------------------+--------------------------------------+
 
 ### RELEVANT EXPERIENCE
-**Full-Stack Software Engineer** for *Smart Warehousing LLC* 05/22 - 05/23
+**Full-Stack Software Engineer** for *Smart Warehousing LLC* \hfill 05/22 - 05/23
 
 Developed third-party logistics (3PL) management software. Worked within multiple internal teams using web technologies. Introduced standards to produce DRY, clear, semantic software code. Refined development processes to be quicker, clearer, and more concise.
 
-**Robotics Education Researcher** for *FHSU* 03/21 - 12/22
+**Robotics Education Researcher** for *FHSU* \hfill 03/21 - 12/22
 
 Created hands-on educational guides for industrial robotics programming. These resources aimed to bring industry standards into the classroom. Presented work at SACAD in 2022.
 
-**Robotics Consultant & Programmer** for *NeySEA LLC* 06/21 - 05/22
+**Robotics Consultant & Programmer** for *NeySEA LLC* \hfill 06/21 - 05/22
 
 Provided consultation and programming services for an industrial robotics implementation. Helped bring robot manufacturing solutions to an untapped market.
 
-**Frontend WordPress Developer** for *Webcom Resources LLC* 01/19 - 04/19
+**Frontend WordPress Developer** for *Webcom Resources LLC* \hfill 01/19 - 04/19
 
 Designed websites in WordPress for businesses and local governing agencies. Applied effective digital marketing strategies, improving the online visibility of clients.
 
 ### EDUCATION
-**Bachelor of Science in Computer Science** at *FHSU* 08/20 - 12/23
+**Bachelor of Science in Computer Science** at *FHSU* \hfill 08/20 - 12/23
 
 Degree acquired while developing my career, ideals, identity, health, discipline, and skills.
 
-**Kansas Academy of Mathematics and Science Certificate of Completion** at *FHSU* 08/20 - 05/22
+**Kansas Academy of Mathematics and Science Certificate of Completion** at *FHSU* \hfill 08/20 - 05/22
 
 Full-time university enrollment with required scholarly research for concurrent high school credit.
 
-**High School Diploma** at *Pleasant Ridge High School* 08/18 - 05/22
+**High School Diploma** at *Pleasant Ridge High School* \hfill 08/18 - 05/22
 
-**Game Development Study** at *Pleasant Ridge High School* 08/18 - 08/20
+**Game Development Study** at *Pleasant Ridge High School* \hfill 08/18 - 08/20
 
 Developed software tools and videogames using programming languages including C++ and C#.
 
