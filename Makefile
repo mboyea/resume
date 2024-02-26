@@ -3,15 +3,17 @@
 SRC_DIR := src
 BUILD_DIR := build
 OUT_DIR := bin
+MEDIA_DIR := media
 
 # file lists
 MDS := $(wildcard $(SRC_DIR)/*.md)
 BUILDS := $(patsubst $(SRC_DIR)/%,$(BUILD_DIR)/%,$(MDS:.md=.tex))
+MEDIA := $(shell find $(MEDIA_DIR) -type f -name "*")
 OUTS := $(patsubst $(BUILD_DIR)/%,$(OUT_DIR)/%,$(BUILDS:.tex=.pdf))
 
 all : $(BUILDS) $(OUTS)
 
-$(OUT_DIR)/%.pdf : $(BUILD_DIR)/%.tex
+$(OUT_DIR)/%.pdf : $(BUILD_DIR)/%.tex $(MEDIA)
 	@mkdir -p "$(OUT_DIR)"
 	@echo "Compiling $@..."; pdflatex -interaction=batchmode -shell-escape -output-directory="$(OUT_DIR)" "$<"
 

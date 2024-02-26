@@ -1,5 +1,5 @@
 ---
-title: Matthew T. C. Boyea's Software Engineer Resume
+title: Matthew T. C. Boyea Software Engineer Resume
 author: [Matthew Terrance Carlos Boyea]
 date: "2024-03"
 lang: en
@@ -7,7 +7,12 @@ subject: resume
 keywords: [resume, cv, markdown, latex, software, engineer, matthew, boyea]
 ---
 # Matthew T. C. Boyea
-[913.203.2177](tel:9132032177) [contact@mboyea.com](mailto:contact@mboyea.com) [linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/) [github.com/mboyea](https://github.com/mboyea)
+[`\centerinline{`{=latex}![Phone icon}](media/icons8-phone-500.png){.center-inline height=1.25em}`}`{=latex} 913.203.2177](tel:9132032177) \hfill
+[`\centerinline{`{=latex}![Email icon](media/icons8-email-90.png){.center-inline height=1.225em}`}`{=latex} contact@mboyea.com](mailto:contact@mboyea.com) \hfill
+[`\centerinline{`{=latex}![LinkedIn icon](media/icons8-linkedin-500.png){.center-inline height=1.25em}`}`{=latex} linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/) \hfill
+[`\centerinline{`{=latex}![GitHub icon](media/icons8-github-144.png){.center-inline height=1.3em}`}`{=latex} github.com/mboyea](https://github.com/mboyea)
+
+[comment]: # (icons from https://icons8.com/)
 
 ## SOFTWARE ENGINEER
 **Software technology expert** with 2 years of industry experience across a broad range of engineering functions. Proven ability to combine technology and business understanding with vision and ingenuity to deliver quality products. Well-developed agile project management skills to support product launches. Comprehensive digital marketing skills to support marketing initiatives. Positioning companies and their products for success.
