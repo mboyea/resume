@@ -1,7 +1,10 @@
 ---
-title: "Matthew Boyea Software Engineer Resume"
-author: "Matthew Terrance Carlos Boyea"
-date: 2024-03
+title: Matthew T. C. Boyea's Software Engineer Resume
+author: [Matthew Terrance Carlos Boyea]
+date: "2024-03"
+lang: en
+subject: resume
+keywords: [resume, cv, markdown, latex, software, engineer, matthew, boyea]
 ---
 # Matthew T. C. Boyea
 [913.203.2177](tel:9132032177) [contact@mboyea.com](mailto:contact@mboyea.com) [linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/) [github.com/mboyea](https://github.com/mboyea)
@@ -9,20 +12,32 @@ date: 2024-03
 ## SOFTWARE ENGINEER
 **Software technology expert** with 2 years of industry experience across a broad range of engineering functions. Proven ability to combine technology and business understanding with vision and ingenuity to deliver quality products. Well-developed agile project management skills to support product launches. Comprehensive digital marketing skills to support marketing initiatives. Positioning companies and their products for success.
 
-+:-------------------------------------+:-------------------------------------+:-------------------------------------+
-| - **Front-End Web Development**      | - **Database Development**           | - **Agile Project Management**       |
-|   using HTML, CSS (Sass), JavaScript |   SQL (Oracle, Postrgres), ORM       |   using Kanban, Scrum (Jira)         |
-|   (Typescript, Webpack, Babel, Vite, |   (SQLAlchemy)                       | - **Unit Tests & Integration Tests** |
-|   Node, Vue3, Svelte, React, Solid), | - **Desktop App Development**        |   using JavaScript (Jest)            |
-|   Wordpress (Elementor)              |   using Java (JavaFX), C++ (SFML,    | - **User Authentication**            |
-| - **Back-End Web Development**       |   SDL2), C# (Unity)                  |   using Auth0, Keycloak              |
-|   using Docker, AWS (Lambda),        | - **Robotics Automation**            | - **Payment Processing**             |
-|   Python, Node                       |   using FANUC TP, Arduino            |   using Stripe                       |
-| - **Full-Stack Web Development**     | - **Direct Digital Marketing**       | - **CI/CD**                          |
-|                                      |   using SEO, Product Placement, Call |   using GitHub, AWS (SAM)            |
-|                                      |   to Action, Marketing Funnels       | - **Version Control**                |
-|                                      |                                      |   using Git                          |
-+--------------------------------------+--------------------------------------+--------------------------------------+
+`\begin{minipage}[t]{0.333\textwidth}`{=latex}
+
+- **Front-End Web Developement** using HTML, CSS (Sass), JavaScript (Typescript, Webpack, Babel, Vite, Node, Vue3, Svelte, React, Solid), Wordpress (Elementor)
+- **Back-End Web Development** using Docker, AWS (Lambda), Python, Node
+- **Full-Stack Web Development**
+
+`\end{minipage}`{=latex}
+`\begin{minipage}[t]{0.333\textwidth}`{=latex}
+
+- **Database Development** SQL (Oracle, Postrgres), ORM (SQLAlchemy)
+- **Desktop App Development**
+- **Robotics Automation** using Java (JavaFX), C++ (SFML, SDL2), C# (Unity)
+- **Direct Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
+
+`\end{minipage}`{=latex}
+`\begin{minipage}[t]{0.333\textwidth}`{=latex}
+
+- **Agile Project Management** using Kanban, Scrum (Jira)
+- **Unit Texts & Integration Tests** using
+JavaScript (Jest)
+- **User Authentication** using Auth0, Keycloak
+- **Payment Processing** using Stripe
+- **CI/CD** using GitHub, AWS (SAM)
+- **Version Control** using Git
+
+`\end{minipage}`{=latex}
 
 ### RELEVANT EXPERIENCE
 **Full-Stack Software Engineer** for *Smart Warehousing LLC* \hfill 05/22 - 05/23
@@ -55,5 +70,4 @@ Full-time university enrollment with required scholarly research for concurrent 
 **Game Development Study** at *Pleasant Ridge High School* \hfill 08/18 - 08/20
 
 Developed software tools and videogames using programming languages including C++ and C#.
-
 
