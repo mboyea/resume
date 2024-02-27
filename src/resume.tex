@@ -3,7 +3,7 @@
 
 % make all rules default to 100% line width to override pandoc output
 \let\OldRule\rule
-\renewcommand{\rule}[2]{\OldRule{\linewidth}{#2}}
+\renewcommand{\rule}[2]{\OldRule{1\linewidth}{#2}}
 
 % center the contents inline - intended to center images
 \newcommand{\centerinline}[1]{$$\vcenter{\hbox{#1}}$$}
@@ -22,32 +22,32 @@
 \titleformat{\section}[hang]
 {\centering\bfseries\huge}
 {}
-{}
+{0pt}
 {\titlerule[0.8pt]\vspace{-0.2em}}[]
 \titlespacing{\section}
-{}
-{}
-{}[]
+{0pt}
+{0pt}
+{0pt}[0pt]
 
 \titleformat{\subsection}[hang]
-{\centering\bfseries\Large}
+{\centering\Large}
 {}
-{}
+{0pt}
 {\vspace{0.6em}\titlerule[1.6pt]}[]
 \titlespacing{\subsection}
-{}
-{}
-{}[]
+{0pt}
+{0pt}
+{0pt}[0pt]
 
 \titleformat{\subsubsection}[hang]
 {\centering\normalsize}
 {}
-{}
+{0pt}
 {\vspace{0.6em}\titlerule[0.8pt]\vspace{-0.3em}}[{\vspace{0.1em}\titlerule[1.6pt]\vspace{0.1em}}]
 \titlespacing{\subsubsection}
-{}
+{0pt}
 {0.7em}
-{0.6em}[]
+{0.6em}[0pt]
 
 % TODO style sections
 \usepackage{titletoc}
