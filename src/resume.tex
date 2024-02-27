@@ -1,11 +1,59 @@
+
+%%% CUSTOM COMMANDS %%%
+
+% make all rules default to 100% line width to override pandoc output
+\let\OldRule\rule
+\renewcommand{\rule}[2]{\OldRule{\linewidth}{#2}}
+
+% center the contents inline - intended to center images
+\newcommand{\centerinline}[1]{$$\vcenter{\hbox{#1}}$$}
+
+%%% END CUSTOM COMMANDS %%%
+
 %%% CUSTOM DOCUMENT STYLES %%%
 
+% style document
 \documentclass[12pt,letterpaper]{article}
-\usepackage{lmodern}
 \usepackage[margin=0.5in]{geometry}
-\usepackage{scalerel}
+\usepackage{lmodern}
 
-\newcommand{\centerinline}[1]{$$\vcenter{\hbox{#1}}$$}
+% style section headers
+\usepackage[compact]{titlesec}
+\titleformat{\section}[hang]
+{\centering\bfseries\huge}
+{}
+{}
+{\titlerule[0.8pt]\vspace{-0.2em}}[]
+\titlespacing{\section}
+{}
+{}
+{}[]
+
+\titleformat{\subsection}[hang]
+{\centering\bfseries\Large}
+{}
+{}
+{\vspace{0.6em}\titlerule[1.6pt]}[]
+\titlespacing{\subsection}
+{}
+{}
+{}[]
+
+\titleformat{\subsubsection}[hang]
+{\centering\bfseries\normalsize}
+{}
+{}
+{\vspace{0.6em}\titlerule[0.8pt]}[{\titlerule[1.6pt]}]
+\titlespacing{\subsubsection}
+{}
+{0.7em}
+{0.5em}[]
+
+% TODO style sections
+\usepackage{titletoc}
+
+% TODO style lists
+\usepackage{enumitem}
 
 %%% END CUSTOM DOCUMENT STYLES
 

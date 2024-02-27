@@ -4,13 +4,15 @@ author: [Matthew Terrance Carlos Boyea]
 date: "2024-03"
 lang: en
 subject: resume
-keywords: [resume, cv, markdown, latex, software, engineer, matthew, boyea]
+keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew, boyea]
 ---
+
 # Matthew T. C. Boyea
-[`\centerinline{`{=latex}![Phone icon}](media/icons8-phone-500.png){.center-inline height=1.25em}`}`{=latex} 913.203.2177](tel:9132032177) \hfill
-[`\centerinline{`{=latex}![Email icon](media/icons8-email-90.png){.center-inline height=1.225em}`}`{=latex} contact@mboyea.com](mailto:contact@mboyea.com) \hfill
-[`\centerinline{`{=latex}![LinkedIn icon](media/icons8-linkedin-500.png){.center-inline height=1.25em}`}`{=latex} linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/) \hfill
-[`\centerinline{`{=latex}![GitHub icon](media/icons8-github-144.png){.center-inline height=1.3em}`}`{=latex} github.com/mboyea](https://github.com/mboyea)
+\hfill[`\centerinline{`{=latex}![Phone icon}](media/icons8-phone-500.png){.center-inline height=1.25em}`}`{=latex} 913.203.2177](tel:9132032177)
+\hfill[`\centerinline{`{=latex}![Email icon](media/icons8-email-90.png){.center-inline height=1.225em}`}`{=latex} contact@mboyea.com](mailto:contact@mboyea.com)
+\hfill[`\centerinline{`{=latex}![LinkedIn icon](media/icons8-linkedin-500.png){.center-inline height=1.25em}`}`{=latex} linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)
+\hfill[`\centerinline{`{=latex}![GitHub icon](media/icons8-github-144.png){.center-inline height=1.3em}`}`{=latex} github.com/mboyea](https://github.com/mboyea)
+\hfill
 
 [comment]: # (icons from https://icons8.com/)
 
