@@ -1,10 +1,6 @@
 
 %%% CUSTOM COMMANDS %%%
 
-% make all rules default to 100% line width to override pandoc output
-\let\OldRule\rule
-\renewcommand{\rule}[2]{\OldRule{1\linewidth}{#2}}
-
 % center the contents inline - intended to center images
 \newcommand{\centerinline}[1]{$$\vcenter{\hbox{#1}}$$}
 
@@ -13,41 +9,104 @@
 %%% CUSTOM DOCUMENT STYLES %%%
 
 % style document
-\documentclass[12pt,letterpaper]{article}
+\documentclass[12pt,letterpaper]{report}
 \usepackage[margin=0.5in]{geometry}
-\usepackage{lmodern}
+\usepackage{tgtermes}
+
+% Font 	"font package name" 	"font code" 	Example
+% Computer Modern Roman 		cmr 	Typeface-cmr.png
+% Latin Modern Roman 	lmodern 	lmr 	Typeface-lmr.png
+% Latin Modern Dunhill 	lmodern 	lmdh 	Typeface-lmdh.png
+% TeX Gyre Termes 	tgtermes 	qtm 	Typeface-qtm.png
+% TeX Gyre Pagella 	tgpagella 	qpl 	Typeface-qpl.png
+% TeX Gyre Bonum 	tgbonum 	qbk 	Typeface-qbk.png
+% TeX Gyre Schola 	tgschola 	qcs 	Typeface-qsc.png
+% Times 	mathptmx 	ptm 	Typeface-ptm.png
+% Utopia / Fourier 	utopia / fourier 	put 	Typeface-put.png
+% Palatino 	palatino 	ppl 	Typeface-ppl.png
+% Bookman 	bookman 	pbk 	Typeface-pbk.png
+% Charter 	charter 	bch 	Typeface-bch.png
+% Computer Modern Sans Serif 		cmss 	Typeface-cmss.png
+% Latin Modern Sans Serif 	lmodern 	lmss 	Typeface-lmss.png
+% TeX Gyre Adventor 	tgadventor 	qag 	Typeface-qag.png
+% TeX Gyre Heros 	tgheros 	qhv 	Typeface-qhv.png
+% Helvetica 	helvet 	phv 	Typeface-phv.png
+% Computer Modern Typewriter 		cmtt 	Typeface-cmtt.png
+% Latin Modern Sans Typewriter 	lmodern 	lmtt 	Typeface-lmtt.png
+% TeX Gyre Cursor 	tgcursor 	qcr 	Typeface-qcr.png
+% Courier 	courier 	pcr 	Typeface-pcr.png
+
+% pag                    Avant Garde
+% fvs                    Bitstream Vera Sans
+% pbk                    Bookman
+% bch                    Charter
+% ccr                    Computer Concrete
+% cmr                    Computer Modern
+% pcr                    Courier
+% ugm                    Garamond
+% phv                    Helvetica
+% fi4 (zi4)              Inconsolata
+% lmr                    Latin Modern
+% lmss                   Latin Modern Sans
+% lmtt                   Latin Modern Typewriter
+% LinuxBiolinumT-OsF     Linux Biolinum (formerly 'fxb' in older package versions)
+% LinuxLibertineT-OsF    Linux Libertine (formerly 'fxl' in older package versions)
+% pnc                    New Century Schoolbook
+% ppl                    Palatino
+% qag                    TeX Gyre Adventor 
+% qbk                    TeX Gyre Bonum 
+% qzc                    TeX Gyre Chorus
+% qcr                    TeX Gyre Cursor
+% qhv                    TeX Gyre Heros
+% qpl                    TeX Gyre Pagella 
+% qcs                    TeX Gyre Schola
+% qtm                    TeX Gyre Termes
+% ptm                    Times
+% uncl                   Uncial
+% put                    Utopia
+% pzc                    Zapf Chancery
 
 % style section headers
 \usepackage[compact]{titlesec}
-\titleformat{\section}[hang]
+\titleformat{\chapter}[hang]
 {\centering\bfseries\huge}
 {}
 {0pt}
 {\titlerule[0.8pt]\vspace{-0.2em}}[]
+\titlespacing{\chapter}
+{0pt}
+{0pt}
+{0pt}[0pt]
+
+\titleformat{\section}[hang]
+{\centering\Large}
+{}
+{0pt}
+{\vspace{0.6em}\titlerule[1.6pt]}[]
 \titlespacing{\section}
 {0pt}
 {0pt}
 {0pt}[0pt]
 
 \titleformat{\subsection}[hang]
-{\centering\Large}
-{}
-{0pt}
-{\vspace{0.6em}\titlerule[1.6pt]}[]
-\titlespacing{\subsection}
-{0pt}
-{0pt}
-{0pt}[0pt]
-
-\titleformat{\subsubsection}[hang]
 {\centering\normalsize}
 {}
 {0pt}
 {\vspace{0.6em}\titlerule[0.8pt]\vspace{-0.3em}}[{\vspace{0.1em}\titlerule[1.6pt]\vspace{0.1em}}]
-\titlespacing{\subsubsection}
+\titlespacing{\subsection}
 {0pt}
 {0.7em}
 {0.6em}[0pt]
+
+\titleformat{\subsubsection}[hang]
+{\normalsize}
+{}
+{0pt}
+{}[]
+\titlespacing{\subsubsection}
+{0pt}
+{0pt}
+{0pt}[0pt]
 
 % TODO style sections
 \usepackage{titletoc}

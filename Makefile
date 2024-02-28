@@ -20,7 +20,7 @@ $(OUT_DIR)/%.pdf : $(BUILD_DIR)/%.tex $(MEDIA)
 .SECONDEXPANSION:
 $(BUILD_DIR)/%.tex : $(SRC_DIR)/%.md $$(wildcard $(SRC_DIR)/%.tex)
 	@mkdir -p "$(BUILD_DIR)"
-	@echo "Compiling $@..."; pandoc --from=markdown --to=latex $(if $(wildcard $(<:.md=.tex)),--template="$(<:.md=.tex)") --standalone --output="$@" "$<"
+	@echo "Compiling $@..."; pandoc --from=markdown --to=latex $(if $(wildcard $(<:.md=.tex)),--template="$(<:.md=.tex)") --standalone --output="$@" "$<" --top-level-division=chapter
 
 clean :
 	@echo "Cleaning..."; $(RM) -r "$(BUILD_DIR)" "$(OUT_DIR)"
