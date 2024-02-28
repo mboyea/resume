@@ -8,11 +8,9 @@
 
 %%% CUSTOM DOCUMENT STYLES %%%
 
-% style document
 \documentclass[12pt,letterpaper]{report}
 \usepackage[margin=0.5in]{geometry}
 \usepackage{tgtermes}
-
 % Font 	"font package name" 	"font code" 	Example
 % Computer Modern Roman 		cmr 	Typeface-cmr.png
 % Latin Modern Roman 	lmodern 	lmr 	Typeface-lmr.png
@@ -66,8 +64,25 @@
 % put                    Utopia
 % pzc                    Zapf Chancery
 
-% style section headers
-\usepackage[compact]{titlesec}
+\usepackage[compact, pagestyles]{titlesec}
+
+% set header/footer styles
+\newpagestyle{main}[]{
+  \sethead[][][]{}{}{}
+  \setfoot[][][]{}{}{}
+}
+\pagestyle{main}
+
+% set header/footer styles for pages with \chapter heading
+\makeatletter
+\renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
+                    \thispagestyle{main}% original style: plain
+                    \global\@topnum\z@
+                    \@afterindentfalse
+                    \secdef\@chapter\@schapter}
+\makeatother
+
+% set section heading styles
 \titleformat{\chapter}[hang]
 {\centering\bfseries\huge}
 {}
@@ -108,11 +123,9 @@
 {0pt}
 {0pt}[0pt]
 
-% TODO style sections
-\usepackage{titletoc}
+% TODO set section text styles
 
-% TODO style lists
-\usepackage{enumitem}
+% TODO set list styles
 
 %%% END CUSTOM DOCUMENT STYLES
 
