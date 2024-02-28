@@ -7,6 +7,7 @@ subject: resume
 keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew, boyea]
 ---
 # Matthew T. C. Boyea
+
 [`\centerinline{`{=latex}![Phone icon}](media/icons8-phone-500.png){.center-inline height=1.25em}`}`{=latex} 913.203.2177](tel:9132032177)\hfill
 [`\centerinline{`{=latex}![Email icon](media/icons8-email-90.png){.center-inline height=1.225em}`}`{=latex} contact@mboyea.com](mailto:contact@mboyea.com)\hfill
 [`\centerinline{`{=latex}![LinkedIn icon](media/icons8-linkedin-500.png){.center-inline height=1.25em}`}`{=latex} linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)\hfill
@@ -26,9 +27,10 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 `\end{minipage}`{=latex}
 `\begin{minipage}[t]{0.333\textwidth}`{=latex}
 
-- **Database Development** SQL (Oracle, Postrgres), ORM (SQLAlchemy)
-- **Desktop App Development**
-- **Robotics Automation** using Java (JavaFX), C++ (SFML, SDL2), C# (Unity)
+- **Database Development** using SQL (Oracle, Postrgres), ORM (SQLAlchemy)
+- **Desktop App Development** using Java (JavaFX), C++ (SFML,
+SDL2), C# (Unity)
+- **Robotics Automation** using FANUC TP, Arduino
 - **Direct Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
 
 `\end{minipage}`{=latex}
