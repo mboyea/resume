@@ -4,75 +4,67 @@
 % center the contents inline - intended to center images
 \newcommand{\centerinline}[1]{$$\vcenter{\hbox{#1}}$$}
 
+% create a new setfont command
+\newcommand{\newfontfamily}[2]{%
+  \newcommand{#1}[0]{\fontfamily{#2}\selectfont}%
+}
+% set default roman (main) font
+\newcommand{\setmainfont}[1]{
+  \renewcommand{\rmdefault}{#1}
+}
+% set default sans font
+\newcommand{\setsansfont}[1]{
+  \renewcommand{\sfdefault}{#1}
+}
+% set default mono font
+\newcommand{\setmonofont}[1]{
+  \renewcommand{\ttdefault}{#1}
+}
+
 %%% END CUSTOM COMMANDS %%%
 
 %%% CUSTOM DOCUMENT STYLES %%%
 
 \documentclass[12pt,letterpaper]{report}
 \usepackage[margin=0.5in]{geometry}
-\usepackage{tgtermes}
-% Font 	"font package name" 	"font code" 	Example
-% Computer Modern Roman 		cmr 	Typeface-cmr.png
-% Latin Modern Roman 	lmodern 	lmr 	Typeface-lmr.png
-% Latin Modern Dunhill 	lmodern 	lmdh 	Typeface-lmdh.png
-% TeX Gyre Termes 	tgtermes 	qtm 	Typeface-qtm.png
-% TeX Gyre Pagella 	tgpagella 	qpl 	Typeface-qpl.png
-% TeX Gyre Bonum 	tgbonum 	qbk 	Typeface-qbk.png
-% TeX Gyre Schola 	tgschola 	qcs 	Typeface-qsc.png
-% Times 	mathptmx 	ptm 	Typeface-ptm.png
-% Utopia / Fourier 	utopia / fourier 	put 	Typeface-put.png
-% Palatino 	palatino 	ppl 	Typeface-ppl.png
-% Bookman 	bookman 	pbk 	Typeface-pbk.png
-% Charter 	charter 	bch 	Typeface-bch.png
-% Computer Modern Sans Serif 		cmss 	Typeface-cmss.png
-% Latin Modern Sans Serif 	lmodern 	lmss 	Typeface-lmss.png
-% TeX Gyre Adventor 	tgadventor 	qag 	Typeface-qag.png
-% TeX Gyre Heros 	tgheros 	qhv 	Typeface-qhv.png
-% Helvetica 	helvet 	phv 	Typeface-phv.png
-% Computer Modern Typewriter 		cmtt 	Typeface-cmtt.png
-% Latin Modern Sans Typewriter 	lmodern 	lmtt 	Typeface-lmtt.png
-% TeX Gyre Cursor 	tgcursor 	qcr 	Typeface-qcr.png
-% Courier 	courier 	pcr 	Typeface-pcr.png
-
-% pag                    Avant Garde
-% fvs                    Bitstream Vera Sans
-% pbk                    Bookman
-% bch                    Charter
-% ccr                    Computer Concrete
-% cmr                    Computer Modern
-% pcr                    Courier
-% ugm                    Garamond
-% phv                    Helvetica
-% fi4 (zi4)              Inconsolata
-% lmr                    Latin Modern
-% lmss                   Latin Modern Sans
-% lmtt                   Latin Modern Typewriter
-% LinuxBiolinumT-OsF     Linux Biolinum (formerly 'fxb' in older package versions)
-% LinuxLibertineT-OsF    Linux Libertine (formerly 'fxl' in older package versions)
-% pnc                    New Century Schoolbook
-% ppl                    Palatino
-% qag                    TeX Gyre Adventor 
-% qbk                    TeX Gyre Bonum 
-% qzc                    TeX Gyre Chorus
-% qcr                    TeX Gyre Cursor
-% qhv                    TeX Gyre Heros
-% qpl                    TeX Gyre Pagella 
-% qcs                    TeX Gyre Schola
-% qtm                    TeX Gyre Termes
-% ptm                    Times
-% uncl                   Uncial
-% put                    Utopia
-% pzc                    Zapf Chancery
-
-\usepackage[compact, pagestyles]{titlesec}
-
+% load fonts
+% defaults: cmr cmss cmtt
+\usepackage{lmodern} % lmr lmdh lmss lmtt
+\usepackage{mathptmx} % ptm
+\usepackage{helvet} % phv
+\usepackage{courier} % pcr
+\usepackage{bookman} % pbk
+\usepackage{palatino} % ppl
+\usepackage{tgpagella} % qpl
+\usepackage{tgtermes} % qtm
+\usepackage{tgbonum} % qbk
+\usepackage{tgschola} % qcs
+\usepackage{tgadventor} % qag
+\usepackage{tgheros} % qhv
+\usepackage{tgcursor} % qcr
+\usepackage{charter} % bch
+\usepackage{avant}
+\usepackage{chancery}
+\usepackage{mathpazo}
+\usepackage{mathpple}
+\usepackage{newcent}
+\usepackage{pifont}
+% set fonts
+\setmainfont{ptm}
+\setsansfont{qag}
+\setmonofont{pcr}
+\newfontfamily{\chhfont}{qbk} % qbk
+% \newfontfamily{\chfont}{qbk} % qbk
+% \newfontfamily{\shfont}{ptm}
+% \newfontfamily{\sshfont}{ptm}
+% \newfontfamily{\ssshfont}{pcr}
 % set header/footer styles
+\usepackage[compact, pagestyles]{titlesec}
 \newpagestyle{main}[]{
   \sethead[][][]{}{}{}
   \setfoot[][][]{}{}{}
 }
 \pagestyle{main}
-
 % set header/footer styles for pages with \chapter heading
 \makeatletter
 \renewcommand\chapter{\if@openright\cleardoublepage\else\clearpage\fi
@@ -81,10 +73,9 @@
                     \@afterindentfalse
                     \secdef\@chapter\@schapter}
 \makeatother
-
-% set section heading styles
+% set chapter heading styles
 \titleformat{\chapter}[hang]
-{\centering\huge}
+{\chhfont\centering\huge}
 {}
 {0pt}
 {\titlerule[0.8pt]\vspace{-0.2em}}[]
@@ -92,7 +83,7 @@
 {0pt}
 {-0.2em}
 {-0.8em}[0pt]
-
+% set section heading styles
 \titleformat{\section}[hang]
 {\centering\Large}
 {}
@@ -102,7 +93,7 @@
 {0pt}
 {1.0em}
 {-0.2em}[0pt]
-
+% set subsection heading styles
 \titleformat{\subsection}[hang]
 {\centering\normalsize}
 {}
@@ -112,7 +103,7 @@
 {0pt}
 {1.2em}
 {0.6em}[0pt]
-
+% set subsubsection heading styles
 \titleformat{\subsubsection}[hang]
 {\normalsize}
 {}
@@ -122,9 +113,7 @@
 {0pt}
 {0pt}
 {0pt}[0pt]
-
 % TODO set section text styles
-
 % TODO set list styles
 
 %%% END CUSTOM DOCUMENT STYLES
