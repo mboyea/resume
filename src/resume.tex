@@ -27,6 +27,14 @@
 
 \documentclass[12pt,letterpaper]{report}
 \usepackage[margin=0.5in]{geometry}
+\usepackage{setspace}
+\setstretch{1.1}
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+% TODO set character spacing using microtype
+\usepackage[compact, pagestyles]{titlesec}
+\usepackage{enumitem}
+% TODO set list styles
 % load fonts
 % defaults: cmr cmss cmtt
 % \usepackage{lmodern} % lmr lmdh lmss lmtt
@@ -57,7 +65,6 @@
 % set default text styles
 \renewcommand\familydefault{\sfdefault}
 % set header/footer styles
-\usepackage[compact, pagestyles]{titlesec}
 \newpagestyle{main}[]{
   \sethead[][][]{}{}{}
   \setfoot[][][]{}{}{}
@@ -76,17 +83,17 @@
 {\altrmfamily\centering\huge}
 {}
 {0pt}
-{\titlerule[0.8pt]\vspace{-0.2em}}[]
+{\titlerule[0.8pt]\vspace{-0.3em}}[]
 \titlespacing{\chapter}
 {0pt}
-{-0.2em}
+{-0.4em}
 {-0.8em}[0pt]
 % set section heading styles
 \titleformat{\section}[hang]
 {\rmfamily\centering\Large}
 {}
 {0pt}
-{\titlerule[1.6pt]\vspace{-0.1em}}[]
+{\titlerule[1.6pt]\vspace{-0.2em}}[]
 \titlespacing{\section}
 {0pt}
 {1.0em}
@@ -96,7 +103,7 @@
 {\rmfamily\centering\normalsize}
 {}
 {0pt}
-{\titlerule[0.8pt]\vspace{-0.3em}}[{\vspace{0.1em}\titlerule[1.6pt]}]
+{\titlerule[0.8pt]\vspace{-0.4em}}[{\vspace{0.1em}\titlerule[1.6pt]}]
 \titlespacing{\subsection}
 {0pt}
 {1.2em}
@@ -111,8 +118,6 @@
 {0pt}
 {0.1em}
 {0pt}[0pt]
-% TODO set section text styles
-% TODO set list styles
 
 %%% END CUSTOM DOCUMENT STYLES
 
@@ -138,10 +143,6 @@ $if(zero-width-non-joiner)$
 $endif$
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[$for(microtypeoptions)$$microtypeoptions$$sep$,$endfor$]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
 \makeatletter
 \IfFileExists{parskip.sty}{%
   \usepackage{parskip}

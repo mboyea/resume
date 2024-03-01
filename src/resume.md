@@ -34,7 +34,7 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 - **Desktop App Development** using Java (JavaFX), C++ (SFML,
 SDL2), C# (Unity)
 - **Robotics Automation** using FANUC TP, Arduino
-- **Direct Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
+- **Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
 
 `\end{minipage}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
