@@ -8,24 +8,27 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 ---
 # Matthew T. C. Boyea
 
+`{\small`{=latex}
 [`\centerinline{`{=latex}![Phone icon}](media/icons8-phone-500.png){.center-inline height=1.25em}`}`{=latex} 913.203.2177](tel:9132032177)\hfill
 [`\centerinline{`{=latex}![Email icon](media/icons8-email-90.png){.center-inline height=1.225em}`}`{=latex} contact@mboyea.com](mailto:contact@mboyea.com)\hfill
 [`\centerinline{`{=latex}![LinkedIn icon](media/icons8-linkedin-500.png){.center-inline height=1.25em}`}`{=latex} linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)\hfill
 [`\centerinline{`{=latex}![GitHub icon](media/icons8-github-144.png){.center-inline height=1.3em}`}`{=latex} github.com/mboyea](https://github.com/mboyea)
+`}`{=latex}
 
 [comment]: # (icons from https://icons8.com/)
 
 ## SOFTWARE ENGINEER
 **Software technology expert** with 2 years of industry experience across a broad range of engineering functions. Proven ability to combine technology and business understanding with vision and ingenuity to deliver quality products. Well-developed agile project management skills to support product launches. Comprehensive digital marketing skills to support marketing initiatives. Positioning companies and their products for success.
 
-`\begin{minipage}[t]{0.333\textwidth}`{=latex}
+`{\small`{=latex}
+`\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
 - **Front-End Web Developement** using HTML, CSS (Sass), JavaScript (Typescript, Webpack, Babel, Vite, Node, Vue3, Svelte, React, Solid), Wordpress (Elementor)
 - **Back-End Web Development** using Docker, AWS (Lambda), Python, Node
 - **Full-Stack Web Development**
 
 `\end{minipage}`{=latex}
-`\begin{minipage}[t]{0.333\textwidth}`{=latex}
+`\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
 - **Database Development** using SQL (Oracle, Postrgres), ORM (SQLAlchemy)
 - **Desktop App Development** using Java (JavaFX), C++ (SFML,
@@ -34,7 +37,7 @@ SDL2), C# (Unity)
 - **Direct Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
 
 `\end{minipage}`{=latex}
-`\begin{minipage}[t]{0.333\textwidth}`{=latex}
+`\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
 - **Agile Project Management** using Kanban, Scrum (Jira)
 - **Unit Texts & Integration Tests** using
@@ -77,4 +80,5 @@ Full-time university enrollment with required scholarly research for concurrent 
 #### **Game Development Study** at *PRHS* \hfill 08/18 - 08/20
 
 Developed software tools and videogames using programming languages including C++ and C#.
+`}`{=latex}
 

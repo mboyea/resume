@@ -4,20 +4,20 @@
 % center the contents inline - intended to center images
 \newcommand{\centerinline}[1]{$$\vcenter{\hbox{#1}}$$}
 
-% create a new setfont command
+% create a new \fontfamily command
 \newcommand{\newfontfamily}[2]{%
   \newcommand{#1}[0]{\fontfamily{#2}\selectfont}%
 }
 % set default roman (main) font
-\newcommand{\setmainfont}[1]{
+\newcommand{\setrmfamily}[1]{
   \renewcommand{\rmdefault}{#1}
 }
 % set default sans font
-\newcommand{\setsansfont}[1]{
+\newcommand{\setsffamily}[1]{
   \renewcommand{\sfdefault}{#1}
 }
 % set default mono font
-\newcommand{\setmonofont}[1]{
+\newcommand{\setttfamily}[1]{
   \renewcommand{\ttdefault}{#1}
 }
 
@@ -29,35 +29,33 @@
 \usepackage[margin=0.5in]{geometry}
 % load fonts
 % defaults: cmr cmss cmtt
-\usepackage{lmodern} % lmr lmdh lmss lmtt
+% \usepackage{lmodern} % lmr lmdh lmss lmtt
 \usepackage{mathptmx} % ptm
-\usepackage{helvet} % phv
+% \usepackage{helvet} % phv
 \usepackage{courier} % pcr
-\usepackage{bookman} % pbk
-\usepackage{palatino} % ppl
-\usepackage{tgpagella} % qpl
-\usepackage{tgtermes} % qtm
+% \usepackage{bookman} % pbk
+% \usepackage{palatino} % ppl
+% \usepackage{tgpagella} % qpl
+% \usepackage{tgtermes} % qtm
 \usepackage{tgbonum} % qbk
-\usepackage{tgschola} % qcs
+% \usepackage{tgschola} % qcs
 \usepackage{tgadventor} % qag
-\usepackage{tgheros} % qhv
-\usepackage{tgcursor} % qcr
-\usepackage{charter} % bch
-\usepackage{avant}
-\usepackage{chancery}
-\usepackage{mathpazo}
-\usepackage{mathpple}
-\usepackage{newcent}
-\usepackage{pifont}
+% \usepackage{tgheros} % qhv
+% \usepackage{tgcursor} % qcr
+% \usepackage{charter} % bch
+% \usepackage{avant}
+% \usepackage{chancery}
+% \usepackage{mathpazo}
+% \usepackage{mathpple}
+% \usepackage{newcent}
+% \usepackage{pifont}
 % set fonts
-\setmainfont{ptm}
-\setsansfont{qag}
-\setmonofont{pcr}
-\newfontfamily{\chhfont}{qbk} % qbk
-% \newfontfamily{\chfont}{qbk} % qbk
-% \newfontfamily{\shfont}{ptm}
-% \newfontfamily{\sshfont}{ptm}
-% \newfontfamily{\ssshfont}{pcr}
+\setrmfamily{ptm}
+\setsffamily{qag}
+\setttfamily{pcr}
+\newfontfamily{\altrmfamily}{qbk}
+% set default text styles
+\renewcommand\familydefault{\sfdefault}
 % set header/footer styles
 \usepackage[compact, pagestyles]{titlesec}
 \newpagestyle{main}[]{
@@ -75,7 +73,7 @@
 \makeatother
 % set chapter heading styles
 \titleformat{\chapter}[hang]
-{\chhfont\centering\huge}
+{\altrmfamily\centering\huge}
 {}
 {0pt}
 {\titlerule[0.8pt]\vspace{-0.2em}}[]
@@ -85,17 +83,17 @@
 {-0.8em}[0pt]
 % set section heading styles
 \titleformat{\section}[hang]
-{\centering\Large}
+{\rmfamily\centering\Large}
 {}
 {0pt}
 {\titlerule[1.6pt]\vspace{-0.1em}}[]
 \titlespacing{\section}
 {0pt}
 {1.0em}
-{-0.2em}[0pt]
+{-0.1em}[0pt]
 % set subsection heading styles
 \titleformat{\subsection}[hang]
-{\centering\normalsize}
+{\rmfamily\centering\normalsize}
 {}
 {0pt}
 {\titlerule[0.8pt]\vspace{-0.3em}}[{\vspace{0.1em}\titlerule[1.6pt]}]
@@ -105,13 +103,13 @@
 {0.6em}[0pt]
 % set subsubsection heading styles
 \titleformat{\subsubsection}[hang]
-{\normalsize}
+{\rmfamily\normalsize}
 {}
 {0pt}
 {}[]
 \titlespacing{\subsubsection}
 {0pt}
-{0pt}
+{0.1em}
 {0pt}[0pt]
 % TODO set section text styles
 % TODO set list styles
