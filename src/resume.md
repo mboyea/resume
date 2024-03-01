@@ -20,10 +20,10 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 ## SOFTWARE ENGINEER
 **Software technology expert** with 2 years of industry experience across a broad range of engineering functions. Proven ability to combine technology and business understanding with vision and ingenuity to deliver quality products. Well-developed agile project management skills to support product launches. Comprehensive digital marketing skills to support marketing initiatives. Positioning companies and their products for success.
 
-`{\small`{=latex}
+`{\footnotesize`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
-- **Front-End Web Developement** using HTML, CSS (Sass), JavaScript (Typescript, Webpack, Babel, Vite, Node, Vue3, Svelte, React, Solid), Wordpress (Elementor)
+- **Front-End Web Development** using HTML, CSS (Sass), JavaScript (Typescript, Webpack, Babel, Vite, Node, Vue3, Svelte, React, Solid), Wordpress (Elementor)
 - **Back-End Web Development** using Docker, AWS (Lambda), Python, Node
 - **Full-Stack Web Development**
 
@@ -34,18 +34,18 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 - **Desktop App Development** using Java (JavaFX), C++ (SFML,
 SDL2), C# (Unity)
 - **Robotics Automation** using FANUC TP, Arduino
-- **Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
+- **Version Control** using Git
+- **CI/CD** using GitHub, AWS (SAM)
 
 `\end{minipage}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
-- **Agile Project Management** using Kanban, Scrum (Jira)
-- **Unit Texts & Integration Tests** using
+- **Unit Tests & Integration Tests** using
 JavaScript (Jest)
 - **User Authentication** using Auth0, Keycloak
 - **Payment Processing** using Stripe
-- **CI/CD** using GitHub, AWS (SAM)
-- **Version Control** using Git
+- **Agile Project Management** using Kanban, Scrum (Jira)
+- **Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
 
 `\end{minipage}`{=latex}
 
