@@ -5,7 +5,11 @@ A visually pleasing resume document written in plaintext using Markdown + LaTeX 
 This resume uses [Pandoc] to convert a collection of [Markdown] & [LaTeX] files into high-quality PDFs. Markdown is used to minimize boilerplate while writing content, and LaTeX is used to enable the best possible control over document styles. The build process is contained in a simple [Makefile] for ease-of-use.
 * Written content and declared styles are separated in the source code (Markdown is to LaTeX as HTML is to CSS in this project).
 * The build process is easily reproducible, easily editable, and fast (Makefile natively supports partial rebuilds & parallelization, and is as standard as it gets for custom build tools).
-* Changes in document formatting are easy to implement (Pandoc natively supports the ability to input and output [many popular formats](https://pandoc.org/MANUAL.html#options) including .docx, .pptx, .tex, .pdf, .html, and .json; plus it could support any other format through Lua plugins).
+* Changes in document formatting are easy to implement (Pandoc natively supports the ability to input and output [many popular formats](https://pandoc.org/MANUAL.html#options) including Microsoft Word, Microsoft Powerpoint, LaTeX, XeTeX, LuaTeX, ConTeXt, PDF, HTML, and JSON; plus is extensible via Lua plugins, such that it could support any other format too).
+
+### Examples
+![A screenshot of my February 2024 resume.](screenshots/2024-02.png)
+![A screenshot of the example document.](screenshots/example.png)
 
 ### Install (Arch Linux)
 * Install `texlive-basic texlive-latexrecommended texlive-latexextra texlive-fontsrecommended` from pacman.
