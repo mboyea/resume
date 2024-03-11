@@ -13,7 +13,7 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 [`\inlineicon{`{=latex}![LinkedIn icon.](media/icons8-linkedin-500.png){.inline-icon height=1.25em}`}`{=latex}linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)\hfill
 [`\inlineicon{`{=latex}![GitHub icon.](media/icons8-github-144.png){.inline-icon height=1.3em}`}`{=latex}github.com/mboyea](https://github.com/mboyea)
 
-## SOFTWARE ENGINEER
+## Software Engineer
 
 `{\large`{=latex}
 
@@ -22,6 +22,8 @@ Highly skilled in fostering positive relationships and facilitating efficient co
 Dedicated to ensuring company and product success.
 
 `}`{=latex}
+
+### Skills
 
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
@@ -51,7 +53,7 @@ JavaScript (Jest)
 
 `\end{minipage}`{=latex}
 
-### EXPERIENCE
+### Experience
 
 #### **Full-Stack Software Engineer** for *Smart Warehousing LLC* \hfill 05/22 - 05/23
 
@@ -75,7 +77,7 @@ Comprehensive understanding of digital marketing strategies to drive effective m
 Capable of delivering impactful product presentations.
 Practiced in writing quality documentation for both developers and users.
 
-### EDUCATION
+### Education
 
 #### **Bachelor of Science in Computer Science** at *FHSU* \hfill 08/20 - 12/23
 
