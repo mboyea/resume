@@ -15,6 +15,11 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 
 ## Software Engineer
 
+`\begin{hide}`{=latex}
+
+### Summary
+
+`\end{hide}`{=latex}
 `{\large`{=latex}
 
 **Software technology expert with 5 years of diverse experience** harmonizing tech and business prerogatives to deliver quality products.
@@ -22,9 +27,11 @@ Highly skilled in fostering positive relationships and facilitating efficient co
 Dedicated to ensuring company and product success.
 
 `}`{=latex}
+`\begin{hide}`{=latex}
 
 ### Skills
 
+`\end{hide}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
 - **Front-End Web Development** using HTML, CSS (Sass), JavaScript (Typescript, Webpack, Babel, Vite, Node, Vue3, Svelte, React, Solid), Wordpress (Elementor)

@@ -1,3 +1,5 @@
+% set paper type, size, & font size
+\documentclass[11pt,letterpaper]{report}
 
 %%% CUSTOM COMMANDS %%%
 
@@ -6,10 +8,26 @@
 
 %%% END CUSTOM COMMANDS %%%
 
+%%% CUSTOM ENVIRONMENTS %%%
+\usepackage{environ}
+\NewEnviron{hide}{%
+  \renewcommand\subsection[1]{%
+    \refstepcounter{subsection}%
+    \addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection}#1}%
+    \subsectionmark{#1}%
+  }%
+  \BODY%
+}%
+{}
+% \newenvironment{hide} {%
+%   \renewcommand\section[1]{\refstepcounter{section}}%
+%   \renewcommand\subsection[1]{\refstepcounter{subsection}}%
+%   }%
+%   {}
+%%% END CUSTOM ENVIRONMENTS %%%
+
 %%% CUSTOM DOCUMENT STYLES %%%
 
-% set paper size & font size
-\documentclass[11pt,letterpaper]{report}
 % set margins
 \usepackage[margin=0.5in]{geometry}
 % set line spacing
