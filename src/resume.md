@@ -8,17 +8,18 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 ---
 # Matthew T. C. Boyea
 
-`{\large`{=latex}
+`{\small`{=latex}
 
-[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){.inline-icon height=1.25em}`}`{=latex}913.203.2177](tel:9132032177)
+[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){.inline-icon height=1.15em}`}`{=latex}913.203.2177](tel:9132032177)
 `\hfill`{=latex}
-[`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){.inline-icon height=1.225em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)
+[`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){.inline-icon height=1.2em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)
 `\hfill`{=latex}
-[`\inlineicon{`{=latex}![GitHub icon.](media/icons8-github-144.png){.inline-icon height=1.3em}`}`{=latex}github.com/mboyea](https://github.com/mboyea)
+[`\inlineicon{`{=latex}![Portfolio icon.](media/icons8-portfolio-96.png){.inline-icon height=1.25em}`}`{=latex}mboyea.com](https://www.mboyea.com)
 `\hfill`{=latex}
-[`\inlineicon{`{=latex}![Location icon.](media/icons8-location-100.png){.inline-icon height=1.2em}`}`{=latex}Kansas City, KS](https://maps.app.goo.gl/NmUA9eWKfTZz5jHn7)
+[`\inlineicon{`{=latex}![GitHub icon.](media/icons8-github-144.png){.inline-icon height=1.25em}`}`{=latex}github.com/mboyea](https://github.com/mboyea)
+`\hfill`{=latex}
+[`\inlineicon{`{=latex}![Location icon.](media/icons8-location-100.png){.inline-icon height=1.15em}`}`{=latex}Kansas City, KS](https://maps.app.goo.gl/NmUA9eWKfTZz5jHn7)
 <!---[`\inlineicon{`{=latex}![LinkedIn icon.](media/icons8-linkedin-500.png){.inline-icon height=1.25em}`}`{=latex}linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)-->
-<!---[`\inlineicon{`{=latex}![Portfolio icon.](media/icons8-portfolio-96.png){.inline-icon height=1.275em}`}`{=latex}mboyea.com](https://www.mboyea.com)-->
 
 `}`{=latex}
 
@@ -42,34 +43,35 @@ Demonstrates exceptional focus and organization, with consistency.
 
 `\end{hide}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
+`\hyphenation{elementor}`{=latex}
 
 - **Front-End Web Development**`\\`{=latex}
-using WebGL (GLSL), HTML, CSS (Sass), JavaScript (Typescript, Webpack, React, Vue, Svelte, Solid, D3.js), Wordpress (Elementor)
+HTML, CSS (Sass), JavaScript (Typescript, Webpack, React, Vue, Svelte, Solid, D3.js), WebGL (GLSL), Wordpress (Elementor)
 - **Back-End Web Development**`\\`{=latex}
-using microservices (AWS Lambda), Node, Python
+microservices (AWS Lambda), Node, Python
 - **Full-Stack Web Development**
 
 `\end{minipage}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
 - **Database Administration**`\\`{=latex}
-using SQL (Postgres, Oracle), ORM (SQLAlchemy)
+SQL (Postgres, Oracle), ORM (SQLAlchemy)
 - **Desktop App Development**`\\`{=latex}
-using Java, C, Assembly (x86), C++ (SDL2, SFML), C# (Unity)
+Java, C, Assembly (x86), C++ (SDL2, SFML), C# (Unity)
 - **Project Management**
-using Agile (Scrum, Kanban), Jira
+Agile (Scrum, Kanban), Jira
 - **GUI & HMI**
-using responsive design, accessibility (WCAG)
+responsive design, accessibility (ADA, WCAG)
 
 `\end{minipage}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
 - **Devops**
-using CI/CD (AWS SAM), Docker, Linux, Makefile, Shell Scripts (Bash), CLI Tools
+CI/CD (AWS SAM), Docker, Linux, Makefile, Shell Scripts (Bash), CLI Tools
 - **Digital Marketing**
-using SEO, Product Placements, Call to Actions, Marketing Funnels
+SEO, Product Placements, Call to Actions, Marketing Funnels
 - **Embedded Systems**
-using Robotics (FANUC TP), PLC (Arduino, C++), Schematics (Cars, 4 Wheelers)
+Robotics (FANUC TP), PLC (Arduino, C++), Schematics (Cars, 4 Wheelers)
 
 `\end{minipage}`{=latex}
 
@@ -77,7 +79,7 @@ using Robotics (FANUC TP), PLC (Arduino, C++), Schematics (Cars, 4 Wheelers)
 
 #### **Full-Stack Software Engineer** for *Smart Warehousing LLC* `\hfill`{=latex} 05/22 - 05/23
 
-Developed third-party logistics (3PL) management software. Worked within multiple internal teams using web technologies. Introduced standards to produce DRY, clear, semantic software code. Refined development processes to be quicker, clearer, and more concise.
+Developed third-party logistics (3PL) management software. Worked within multiple internal teams using web technologies. Introduced standards to produce DRY, semantic software code. Refined development processes to be quicker, clearer, and more concise.
 
 #### **Robotics Education Researcher** for *FHSU* `\hfill`{=latex} 03/21 - 12/22
 
@@ -89,7 +91,7 @@ Provided consultation and programming services for an industrial robotics implem
 
 #### **Frontend WordPress Developer** for *Webcom Resources LLC* `\hfill`{=latex} 01/19 - 04/19
 
-Designed websites in WordPress for businesses and local governing agencies. Applied effective digital marketing strategies, improving the online visibility of clients.
+Designed websites in WordPress for local businesses and governing agencies. Applied effective web design, SEO, & digital marketing strategies, improving the online visibility & conversions of 4 clients.
 
 <!---Proficient in agile project management to facilitate smooth product launches.
 Skilled in debugging both functionality and performance of software products.
