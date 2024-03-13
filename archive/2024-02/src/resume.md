@@ -9,7 +9,6 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 # Matthew T. C. Boyea
 
 `{\small`{=latex}
-[`\centerinline{`{=latex}![Phone icon}](media/icons8-phone-500.png){.center-inline height=1.25em}`}`{=latex} 000.000.0000](tel:0000000000)\hfill
 [`\centerinline{`{=latex}![Email icon](media/icons8-email-90.png){.center-inline height=1.225em}`}`{=latex} contact@mboyea.com](mailto:contact@mboyea.com)\hfill
 [`\centerinline{`{=latex}![LinkedIn icon](media/icons8-linkedin-500.png){.center-inline height=1.25em}`}`{=latex} linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)\hfill
 [`\centerinline{`{=latex}![GitHub icon](media/icons8-github-144.png){.center-inline height=1.3em}`}`{=latex} github.com/mboyea](https://github.com/mboyea)

@@ -23,8 +23,8 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 `{\large`{=latex}
 
 **Software technology expert with 5 years of diverse experience** harmonizing tech and business prerogatives to deliver quality products.
-Highly skilled in fostering positive relationships and facilitating efficient communication.
-Dedicated to ensuring company and product success.
+Highly skilled in cultivating positive relationships and facilitating efficient communication.
+Demonstrates exceptional focus and organization, consistently delivering innovative solutions, at scale.
 
 `}`{=latex}
 `\begin{hide}`{=latex}
@@ -34,29 +34,36 @@ Dedicated to ensuring company and product success.
 `\end{hide}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
-- **Front-End Web Development** using HTML, CSS (Sass), JavaScript (Typescript, Webpack, Babel, Vite, Node, Vue3, Svelte, React, Solid), Wordpress (Elementor)
-- **Back-End Web Development** using Docker, AWS (Lambda), Python, Node
+- **Front-End Web Development**`\\`{=latex}
+using WebGL (GLSL), HTML, CSS (Sass), JavaScript (Typescript, Webpack, React, Vue, Svelte, Solid), Wordpress (Elementor)
+- **Back-End Web Development**`\\`{=latex}
+using Docker, Node, Python, AWS Lambda
 - **Full-Stack Web Development**
 
 `\end{minipage}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
-- **Database Development** using SQL (Oracle, Postrgres), ORM (SQLAlchemy)
-- **Desktop App Development** using Java (JavaFX), C++ (SFML,
-SDL2), C# (Unity)
-- **Robotics Automation** using FANUC TP, Arduino
-- **Version Control** using Git
-- **CI/CD** using GitHub, AWS (SAM)
+- **Devops**
+using CI/CD (GitHub, AWS SAM), Shell Scripting (Bash), Makefile, Linux (Arch)
+- **Database Administration**`\\`{=latex}
+using SQL (Postgres, Oracle), ORM (SQLAlchemy)
+- **Desktop App Development**`\\`{=latex}
+using Java, C, Assembly (x86), C++ (SDL2, SFML), C# (Unity)
+- **GUI, HMI, & Graphic Design**
 
 `\end{minipage}`{=latex}
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
-- **Unit Tests & Integration Tests** using
-JavaScript (Jest)
-- **User Authentication** using Auth0, Keycloak
-- **Payment Processing** using Stripe
-- **Agile Project Management** using Kanban, Scrum (Jira)
-- **Digital Marketing** using SEO, Product Placement, Call to Action, Marketing Funnels
+- **Version Control**
+using Git
+- **Robotics**
+using PLC (Arduino), CNC (G-Code), FANUC TP
+- **Embedded Systems**
+using schematics (cars, 4-wheelers)
+- **Project Management**
+using Agile (Scrum, Kanban), Jira
+- **Digital Marketing**
+using SEO, Product Placement, Call to Action, Marketing Funnels
 
 `\end{minipage}`{=latex}
 
@@ -83,6 +90,8 @@ Skilled in debugging both functionality and performance of software products.
 Comprehensive understanding of digital marketing strategies to drive effective marketing campaigns.
 Capable of delivering impactful product presentations.
 Practiced in writing quality documentation for both developers and users.
+- **Testing**
+using TDD, unit tests, integration tests
 
 ### Education
 
