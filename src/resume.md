@@ -8,10 +8,17 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 ---
 # Matthew T. C. Boyea
 
-[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){.inline-icon height=1.25em}`}`{=latex}913.203.2177](tel:9132032177)\hfill
-[`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){.inline-icon height=1.225em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)\hfill
-[`\inlineicon{`{=latex}![LinkedIn icon.](media/icons8-linkedin-500.png){.inline-icon height=1.25em}`}`{=latex}linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)\hfill
+[`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){.inline-icon height=1.225em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)
+\hfill
+[`\inlineicon{`{=latex}![Portfolio icon.](media/icons8-portfolio-96.png){.inline-icon height=1.275em}`}`{=latex}mboyea.com](https://www.mboyea.com)
+\hfill
+[`\inlineicon{`{=latex}![LinkedIn icon.](media/icons8-linkedin-500.png){.inline-icon height=1.25em}`}`{=latex}linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)
+\hfill
 [`\inlineicon{`{=latex}![GitHub icon.](media/icons8-github-144.png){.inline-icon height=1.3em}`}`{=latex}github.com/mboyea](https://github.com/mboyea)
+`\\`{=latex}
+[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){.inline-icon height=1.25em}`}`{=latex}913.203.2177](tel:9132032177)
+\hfill
+[`\inlineicon{`{=latex}![Location icon.](media/icons8-location-100.png){.inline-icon height=1.25em}`}`{=latex}Kansas City, KS](https://maps.app.goo.gl/NmUA9eWKfTZz5jHn7)
 
 ## Software Engineer
 
