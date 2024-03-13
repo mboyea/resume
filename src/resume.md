@@ -44,7 +44,7 @@ using Docker, Node, Python, AWS Lambda
 `\begin{minipage}[t]{0.33\textwidth}`{=latex}
 
 - **Devops**
-using CI/CD (GitHub, AWS SAM), Shell Scripting (Bash), Makefile, Linux (Arch)
+using CI/CD (AWS SAM), Makefile, Shell Scripts (Bash), CLI Tools, Linux (Arch)
 - **Database Administration**`\\`{=latex}
 using SQL (Postgres, Oracle), ORM (SQLAlchemy)
 - **Desktop App Development**`\\`{=latex}
