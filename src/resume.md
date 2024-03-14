@@ -25,14 +25,9 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 
 ## Software Engineer
 
-`\begin{hide}`{=latex}
-
-### Summary
-
-`\end{hide}`{=latex}
 `{\large`{=latex}
 
-**Software technology expert with 4 years of diverse experience** harmonizing tech and business prerogatives to deliver quality products.
+**Software technology expert with 3 years of diverse experience** harmonizing tech and business prerogatives to deliver quality products.
 Adept in cultivating positive relationships and efficient communication.
 Demonstrates exceptional focus and organization, with consistency.
 
@@ -42,7 +37,7 @@ Demonstrates exceptional focus and organization, with consistency.
 ### Skills
 
 `\end{hide}`{=latex}
-`\begin{minipage}[t]{0.33\textwidth}`{=latex}
+`\begin{tricolumn}`{=latex}
 `\hyphenation{elementor}`{=latex}
 
 - **Front-End Web Development**`\\`{=latex}
@@ -51,8 +46,8 @@ HTML, CSS (Sass), JavaScript (Typescript, Webpack, React, Vue, Svelte, Solid, D3
 microservices (AWS Lambda), Node, Python
 - **Full-Stack Web Development**
 
-`\end{minipage}`{=latex}
-`\begin{minipage}[t]{0.33\textwidth}`{=latex}
+`\end{tricolumn}`{=latex}
+`\begin{tricolumn}`{=latex}
 
 - **Database Administration**`\\`{=latex}
 SQL (Postgres, Oracle), ORM (SQLAlchemy)
@@ -63,8 +58,8 @@ Agile (Scrum, Kanban), Jira
 - **GUI & HMI**
 responsive design, accessibility (ADA, WCAG)
 
-`\end{minipage}`{=latex}
-`\begin{minipage}[t]{0.33\textwidth}`{=latex}
+`\end{tricolumn}`{=latex}
+`\begin{tricolumn}`{=latex}
 
 - **Devops**
 CI/CD (AWS SAM), Docker, Linux, Makefile, Shell Scripts (Bash), CLI Tools
@@ -73,13 +68,32 @@ SEO, Product Placements, Call to Actions, Marketing Funnels
 - **Embedded Systems**
 Robotics (FANUC TP), PLC (Arduino, C++), Schematics (Cars, 4 Wheelers)
 
-`\end{minipage}`{=latex}
+`\end{tricolumn}`{=latex}
 
 ### Experience
 
 #### **Full-Stack Software Engineer** for *Smart Warehousing LLC* `\hfill`{=latex} 05/22 - 05/23
 
 Developed third-party logistics (3PL) management software. Worked within multiple internal teams using web technologies. Introduced standards to produce DRY, semantic software code. Refined development processes to be quicker, clearer, and more concise.
+
+<!---
+`\\`{=latex}
+`\begin{tricolumn}`{=latex}
+
+- Introduced versioning standards (SemVer)
+
+`\end{tricolumn}`{=latex}
+`\begin{tricolumn}`{=latex}
+
+- Created a **pain point** for my accomplishments
+
+`\end{tricolumn}`{=latex}
+`\begin{tricolumn}`{=latex}
+
+- Created a **pain point** for my accomplishments
+
+`\end{tricolumn}`{=latex}
+-->
 
 #### **Robotics Education Researcher** for *FHSU* `\hfill`{=latex} 03/21 - 12/22
 
