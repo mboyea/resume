@@ -8,7 +8,8 @@ This resume uses [Pandoc] to convert a collection of [Markdown] & [LaTeX] files 
 * Changes in document formatting are easy to implement (Pandoc natively supports the ability to input and output [many popular formats](https://pandoc.org/MANUAL.html#options) including Microsoft Word, Microsoft Powerpoint, LaTeX, XeTeX, LuaTeX, ConTeXt, PDF, HTML, and JSON; plus is extensible via Lua plugins, such that it could support any other format too).
 
 ### Examples
-![A screenshot of my February 2024 resume.](screenshots/2024-02.png)
+![A screenshot of my March 2024 resume.](screenshots/2024-03.png)
+<!---![A screenshot of my February 2024 resume.](screenshots/2024-02.png)-->
 ![A screenshot of the example document.](screenshots/example.png)
 
 ### Install (Arch Linux)
