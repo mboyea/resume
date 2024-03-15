@@ -10,7 +10,7 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 
 `{\small`{=latex}
 
-[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){height=1.15em}`}`{=latex}913.203.2177](tel:9132032177)
+[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){height=1.15em}`}`{=latex}000.000.0000](tel:000000000)
 `\hfill`{=latex}
 [`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){height=1.2em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)
 `\hfill`{=latex}
