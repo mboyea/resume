@@ -28,7 +28,7 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 `{\large`{=latex}
 
 **Software technology expert with 3 years of diverse experience** harmonizing tech and business prerogatives to deliver quality products.
-Adept in cultivating positive relationships and efficient communication.
+Skilled at cultivating positive relationships and efficient communication.
 Demonstrates exceptional focus and organization, with consistency.
 
 `}`{=latex}
@@ -38,6 +38,8 @@ Demonstrates exceptional focus and organization, with consistency.
 
 `\end{hide}`{=latex}
 `\begin{tricolumn}`{=latex}
+`\hyphenation{react}`{=latex}
+`\hyphenation{webgl}`{=latex}
 `\hyphenation{elementor}`{=latex}
 
 - **Front-End Web Development**`\\`{=latex}
@@ -52,7 +54,7 @@ microservices (AWS Lambda), Node, Python
 - **Database Administration**`\\`{=latex}
 SQL (Postgres, Oracle), ORM (SQLAlchemy)
 - **Desktop App Development**`\\`{=latex}
-Java, C, Assembly (x86), C++ (SDL2, SFML), C# (Unity)
+Java, Assembly (x86), C++ (SDL2, SFML), C# (Unity)
 - **Project Management**
 Agile (Scrum, Kanban), Jira
 - **GUI & HMI**
@@ -61,11 +63,13 @@ responsive design, accessibility (ADA, WCAG)
 `\end{tricolumn}`{=latex}
 `\begin{tricolumn}`{=latex}
 
+- **Testing**
+TDD, unit tests
 - **Devops**
 Docker, CI/CD IAC (AWS SAM), Linux, Makefile, Shell Scripts (Bash), CLI Tools
 - **Digital Marketing** SEO, Product Placements, Call to Actions, Marketing Funnels
-- **Embedded Systems**
-Robotics (FANUC TP), PLC (Arduino, C++), Schematics (Cars, 4 Wheelers)
+- **Embedded Systems**`\\`{=latex}
+Schematics (Cars, 4 Wheeler), Robotics (FANUC TP, Arduino)
 
 `\end{tricolumn}`{=latex}
 
@@ -79,7 +83,7 @@ Worked with 2 teams using microservices (AWS, DataDog, Auth0) and Web UI Framewo
 `\begin{bicolumn}`{=latex}
 
 - Developed a mobile-friendly real-time GUI that visualized **tens of thousands of data points** on a map.
-- Software sold to multiple external companies.
+- Software sold to at least 2 external companies.
 
 `\end{bicolumn}`{=latex}
 `\begin{bicolumn}`{=latex}
@@ -92,33 +96,53 @@ Worked with 2 teams using microservices (AWS, DataDog, Auth0) and Web UI Framewo
 
 #### **Robotics Education Researcher** for *FHSU* `\hfill`{=latex} 03/21 - 12/22
 
-Created hands-on educational guides for industrial robotics programming. These resources aimed to bring industry standards into the classroom. Presented work at SACAD in 2022.
+Conducted a case study to integrate industry robotics programming standards into university curriculum.
+`\\`{=latex}
+`{\small`{=latex}
+`\begin{bicolumn}`{=latex}
+
+- Presented findings to **100+ attendees** at SACAD.
+
+`\end{bicolumn}`{=latex}
+`\begin{bicolumn}`{=latex}
+
+- Demonstrated benefits of project-based learning.
+
+`\end{bicolumn}`{=latex}
+`}`{=latex}
 
 #### **Robotics Consultant & Programmer** for *NeySEA LLC* `\hfill`{=latex} 06/21 - 05/22
 
-Provided consultation and programming services for an industrial robotics implementation. Helped bring robot manufacturing solutions to an untapped market.
+Provided consultation and programming services for an industrial robotics implementation.
+Helped bring robot manufacturing solutions to an untapped market. Under NDA.
 
 #### **Frontend WordPress Developer** for *Webcom Resources LLC* `\hfill`{=latex} 01/19 - 04/19
 
-Designed websites in WordPress for local businesses and governing agencies. Applied effective web design, SEO, & digital marketing strategies, improving the online visibility & conversions of 4 clients.
+Designed websites using WordPress (Elementor) for local businesses and governing agencies.
+`\\`{=latex}
+`{\small`{=latex}
+`\begin{bicolumn}`{=latex}
 
-<!---Proficient in agile project management to facilitate smooth product launches.
-Skilled in debugging both functionality and performance of software products.
-Comprehensive understanding of digital marketing strategies to drive effective marketing campaigns. Capable of delivering impactful product presentations.
-Practiced in writing quality documentation for both developers and users.
-- **Testing**
-using TDD, unit tests, integration tests-->
+- Improved online visibility & conversions of **4 clients**.
+
+`\end{bicolumn}`{=latex}
+`\begin{bicolumn}`{=latex}
+
+- Practiced branding, graphic design & SEO.
+
+`\end{bicolumn}`{=latex}
+`}`{=latex}
 
 ### Education
 
 #### **Bachelor of Science in Computer Science** at *FHSU* `\hfill`{=latex} 08/20 - 12/23
 
-Graduated from University while developing my career, ideals, identity, health, discipline, and skills.
+Graduated from University *3 years early* while developing career, ideals, health, discipline, and skills.
 
 #### **KAMS Certificate of Completion** at *FHSU* `\hfill`{=latex} 08/20 - 05/22
 
-Full-time university enrollment and scholarly research for concurrent high school credit.
+*Full-time* university enrollment and scholarly research for concurrent high school credit.
 
 #### **High School Diploma** at *PRHS* `\hfill`{=latex} 08/18 - 05/22
-Self-taught programming in C++, and C#, with a focus on developing software tools and video games.
+*Self-taught* programming with C++ & C#, with a focus on developing software tools and video games.
 
