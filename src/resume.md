@@ -10,15 +10,15 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 
 `{\small`{=latex}
 
-[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){.inline-icon height=1.15em}`}`{=latex}913.203.2177](tel:9132032177)
+[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){height=1.15em}`}`{=latex}913.203.2177](tel:9132032177)
 `\hfill`{=latex}
-[`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){.inline-icon height=1.2em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)
+[`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){height=1.2em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)
 `\hfill`{=latex}
-[`\inlineicon{`{=latex}![Portfolio icon.](media/icons8-portfolio-96.png){.inline-icon height=1.25em}`}`{=latex}mboyea.com](https://www.mboyea.com)
+[`\inlineicon{`{=latex}![Portfolio icon.](media/icons8-portfolio-96.png){height=1.25em}`}`{=latex}mboyea.com](https://www.mboyea.com)
 `\hfill`{=latex}
-[`\inlineicon{`{=latex}![GitHub icon.](media/icons8-github-144.png){.inline-icon height=1.25em}`}`{=latex}github.com/mboyea](https://github.com/mboyea)
+[`\inlineicon{`{=latex}![GitHub icon.](media/icons8-github-144.png){height=1.25em}`}`{=latex}github.com/mboyea](https://github.com/mboyea)
 `\hfill`{=latex}
-[`\inlineicon{`{=latex}![Location icon.](media/icons8-location-100.png){.inline-icon height=1.15em}`}`{=latex}Kansas City, KS](https://maps.app.goo.gl/NmUA9eWKfTZz5jHn7)
+[`\inlineicon{`{=latex}![Location icon.](media/icons8-location-100.png){height=1.15em}`}`{=latex}Kansas City, KS](https://maps.app.goo.gl/NmUA9eWKfTZz5jHn7)
 <!---[`\inlineicon{`{=latex}![LinkedIn icon.](media/icons8-linkedin-500.png){.inline-icon height=1.25em}`}`{=latex}linkedin.com/in/mboyea](https://www.linkedin.com/in/mboyea/)-->
 
 `}`{=latex}
@@ -62,9 +62,8 @@ responsive design, accessibility (ADA, WCAG)
 `\begin{tricolumn}`{=latex}
 
 - **Devops**
-CI/CD (AWS SAM), Docker, Linux, Makefile, Shell Scripts (Bash), CLI Tools
-- **Digital Marketing**
-SEO, Product Placements, Call to Actions, Marketing Funnels
+Docker, CI/CD IAC (AWS SAM), Linux, Makefile, Shell Scripts (Bash), CLI Tools
+- **Digital Marketing** SEO, Product Placements, Call to Actions, Marketing Funnels
 - **Embedded Systems**
 Robotics (FANUC TP), PLC (Arduino, C++), Schematics (Cars, 4 Wheelers)
 
@@ -74,26 +73,22 @@ Robotics (FANUC TP), PLC (Arduino, C++), Schematics (Cars, 4 Wheelers)
 
 #### **Full-Stack Software Engineer** for *Smart Warehousing LLC* `\hfill`{=latex} 05/22 - 05/23
 
-Developed third-party logistics (3PL) management software. Worked within multiple internal teams using web technologies. Introduced standards to produce DRY, semantic software code. Refined development processes to be quicker, clearer, and more concise.
-
-<!---
+Worked with 2 teams using microservices (AWS, DataDog, Auth0) and Web UI Frameworks (React, Vue) to create cross-platform 3PL (third-party logistics) software for managing warehouse operations.
 `\\`{=latex}
-`\begin{tricolumn}`{=latex}
+`{\small`{=latex}
+`\begin{bicolumn}`{=latex}
 
-- Introduced versioning standards (SemVer)
+- Developed a mobile-friendly real-time GUI that visualized **tens of thousands of data points** on a map.
+- Software sold to multiple external companies.
 
-`\end{tricolumn}`{=latex}
-`\begin{tricolumn}`{=latex}
+`\end{bicolumn}`{=latex}
+`\begin{bicolumn}`{=latex}
 
-- Created a **pain point** for my accomplishments
+- Introduced standards (Vue Style Guide, Callback Hell Guide) to produce maintainable code.
+- Revised GitHub PRs & used SemVer to improve QA.
 
-`\end{tricolumn}`{=latex}
-`\begin{tricolumn}`{=latex}
-
-- Created a **pain point** for my accomplishments
-
-`\end{tricolumn}`{=latex}
--->
+`\end{bicolumn}`{=latex}
+`}`{=latex}
 
 #### **Robotics Education Researcher** for *FHSU* `\hfill`{=latex} 03/21 - 12/22
 
@@ -109,8 +104,7 @@ Designed websites in WordPress for local businesses and governing agencies. Appl
 
 <!---Proficient in agile project management to facilitate smooth product launches.
 Skilled in debugging both functionality and performance of software products.
-Comprehensive understanding of digital marketing strategies to drive effective marketing campaigns.
-Capable of delivering impactful product presentations.
+Comprehensive understanding of digital marketing strategies to drive effective marketing campaigns. Capable of delivering impactful product presentations.
 Practiced in writing quality documentation for both developers and users.
 - **Testing**
 using TDD, unit tests, integration tests-->
@@ -119,15 +113,12 @@ using TDD, unit tests, integration tests-->
 
 #### **Bachelor of Science in Computer Science** at *FHSU* `\hfill`{=latex} 08/20 - 12/23
 
-Degree acquired while developing my career, ideals, identity, health, discipline, and skills.
+Graduated from University while developing my career, ideals, identity, health, discipline, and skills.
 
 #### **KAMS Certificate of Completion** at *FHSU* `\hfill`{=latex} 08/20 - 05/22
 
-Full-time university enrollment with required scholarly research for concurrent high school credit.
+Full-time university enrollment and scholarly research for concurrent high school credit.
 
 #### **High School Diploma** at *PRHS* `\hfill`{=latex} 08/18 - 05/22
-
-#### **Game Development Study** at *PRHS* `\hfill`{=latex} 08/18 - 08/20
-
-Developed software tools and videogames using programming languages including C++ and C#.
+Self-taught programming in C++, and C#, with a focus on developing software tools and video games.
 
