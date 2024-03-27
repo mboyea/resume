@@ -17,6 +17,16 @@ This resume uses [Pandoc] to convert a collection of [Markdown] & [LaTeX] files 
 * Install `pandoc-bin` from AUR **or** `pandoc-cli` from pacman *(do not install both)*.
 * [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to a directory on your computer. That directory will be referred to as `root`.
 
+### Install (NixOS Linux Home Manager)
+* Add packages to the config file:
+```
+pandoc
+texliveFull
+gnumake
+```
+* Rebuild the config file with `home-manager switch` or `nixos-rebuild switch`. 
+* [Clone this repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) to a directory on your computer. That directory will be referred to as `root`.
+
 ### Scripts
 To run a script, type the script into a terminal within the `root` directory.
 
