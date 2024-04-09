@@ -22,12 +22,11 @@
 \usepackage{tgadventor} % qag
 \usepackage{tgbonum} % qbk
 % set default fonts
-\renewcommand{\rmdefault}{qbk}
-% \renewcommand{\rmdefault}{ptm}
+\renewcommand{\rmdefault}{ptm}
 \renewcommand{\sfdefault}{qag}
 \renewcommand{\ttdefault}{pcr}
-% \newcommand{\altrmdefault}{qbk}
-% \newcommand{\altrmfamily}{\fontfamily{\altrmdefault}\selectfont}
+\newcommand{\altrmdefault}{qbk}
+\newcommand{\altrmfamily}{\fontfamily{\altrmdefault}\selectfont}
 \renewcommand\familydefault{\sfdefault}
 % set character spacing
 \usepackage[tracking = true, letterspace = 500]{microtype}
@@ -57,7 +56,7 @@
 \makeatother
 % set chapter heading styles
 \titleformat{\chapter}[hang]
-{\centering\rmfamily\huge\uppercase}
+{\centering\altrmfamily\Huge}
 {}
 {0pt}
 {\titlerule[0.6pt]\vspace{-0.3em}}[]
