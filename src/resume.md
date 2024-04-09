@@ -11,7 +11,7 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 `{\large`{=latex}
 
 <!---
-[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){height=1.15em}`}`{=latex}913.203.2177](tel:9132032177)
+[`\inlineicon{`{=latex}![Phone icon.](media/icons8-phone-500.png){height=1.15em}`}`{=latex}000.000.0000](tel:0000000000)
 `\hfill`{=latex}
 -->
 [`\inlineicon{`{=latex}![Email icon.](media/icons8-email-90.png){height=1.2em}`}`{=latex}contact@mboyea.com](mailto:contact@mboyea.com)
@@ -31,8 +31,9 @@ keywords: [resume, cv, markdown, latex, software, engineer, programmer, matthew,
 
 `{\large`{=latex}
 
-Multidisciplined software engineer with **2.5 years of diverse field experience** improving the quality and accessibility of education, commerce, and media through web technologies.
+Multidisciplined software engineer with **2.5 years of diverse field experience**.
 Fascinated by the potential of software since 2018.
+Seeks to improve the quality and accessibility of education, commerce, and media through web technologies.
 Highly organized and leadership-oriented.
 
 
