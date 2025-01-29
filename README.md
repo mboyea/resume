@@ -2,6 +2,8 @@ Matthew Boyea Resume
 ===
 A visually pleasing resume document written in plaintext using Markdown + LaTeX via Pandoc + Makefile
 ---
+**NOTICE:** This repository is a predecessor to [github.com/mboyea/mdc](https://github.com/mboyea/mdc). If you want to create a resume using Markdown+LaTeX through Pandoc, use `mdc pdf` instead of this repository.
+
 This resume uses [Pandoc] to convert a collection of [Markdown] & [LaTeX] files into high-quality PDFs. Markdown is used to minimize boilerplate while writing content, and LaTeX is used to enable the best possible control over document styles. The build process is contained in a simple [Makefile] for ease-of-use.
 * Written content and declared styles are separated in the source code (Markdown is to LaTeX as HTML is to CSS in this project).
 * The build process is easily reproducible, easily editable, and fast (Makefile natively supports partial rebuilds & parallelization, and is as standard as it gets for custom build tools).
